@@ -1,6 +1,6 @@
 ### Django - DjangoRestFramework - PixiJS
 
-This is poll app for commenting and voting on pixijs API examples.  The intent is to build a stack including django, a database, django restframework and pixijs.
+This is a working project for a website for commenting and voting on pixijs API examples.  The intent is to build a stack that includes django, a database, django restframework and pixijs.
 
 Create project directory
 

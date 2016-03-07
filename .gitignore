@@ -10,6 +10,8 @@ build/
 dist/
 lib/
 var/
+examples/
+pixijs/
 
 # Django #
 *.log
