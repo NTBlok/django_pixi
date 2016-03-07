@@ -34,4 +34,6 @@ Test Pixi examples with simple http server
 Create a front-end directory
 
     cd ../
-    mkdir client
+    mkdir mypixi
+    cd mypixi
+    touch index.html
