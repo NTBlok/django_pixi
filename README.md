@@ -35,5 +35,8 @@ Create a front-end directory
 
     cd ../
     mkdir mypixi
-    cd mypixi
-    touch index.html
+
+Create git subtree of Pixijs and Pixi Examples in front-end directory
+
+    git subtree add --prefix .vim/mypixi/bundle/pixi.js https://github.com/pixijs/pixi.js.git master --squash
+    git subtree add --prefix .vim/mypixi/bundle/examples https://github.com/pixijs/examples.git master --squash
