@@ -26,11 +26,6 @@ Test Django server
 
     python manage.py runserver 0.0.0.0:8000
 
-Test Pixi examples with simple http server
-
-    cd ../examples
-    python -m SimpleHTTPServer 8000
-
 Create a front-end directory
 
     cd ../
@@ -38,5 +33,17 @@ Create a front-end directory
 
 Create git subtree of Pixijs and Pixi Examples in front-end directory
 
-    git subtree add --prefix .vim/mypixi/bundle/pixi.js https://github.com/pixijs/pixi.js.git master --squash
-    git subtree add --prefix .vim/mypixi/bundle/examples https://github.com/pixijs/examples.git master --squash
+    git remote add -f mypixi/bundle/pixi.js https://github.com/pixijs/pixi.js.git
+    git remote add -f mypixi/bundle/examples https://github.com/pixijs/examples.git
+    git subtree add --prefix mypixi/bundle/pixi.js https://github.com/pixijs/pixi.js.git master --squash
+    git subtree add --prefix mypixi/bundle/examples https://github.com/pixijs/examples.git gh-pages --squash
+
+Test Pixi examples with simple http server
+
+    cd mypixi/bundle/examples
+    python -m SimpleHTTPServer 8000
+
+Create and edit files in front-end directory with AJAX calls to database managed by django
+
+    # Create new front-end html
+    touch index.html

@@ -17,4 +17,3 @@ python manage.py createsuperuser
 # Create new Serializers module
 touch mysite/pixi_polls/serializers.py
 
-
