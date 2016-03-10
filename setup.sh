@@ -5,7 +5,7 @@ pip install djangorestframework
 # Set up a new project with a single application
 django-admin.py startproject mysite .
 cd mysite
-django-admin.py startapp pixi_polls
+django-admin.py startapp polls
 cd ..
 
 # Sync db for the first time to create initial tables
@@ -15,5 +15,5 @@ python manage.py migrate
 python manage.py createsuperuser
 
 # Create new Serializers module
-touch mysite/pixi_polls/serializers.py
+touch mysite/polls/serializers.py
 

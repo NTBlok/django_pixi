@@ -4,8 +4,8 @@ This is a working project for a website for commenting and voting on pixijs API 
 
 Create project directory
 
-    mkdir django_pixi
-    cd django_pixi
+    mkdir mydjango
+    cd mydjango
 
 Create a virtualenv and activate it and add the new path
 
