@@ -18,5 +18,5 @@ python manage.py migrate
 python manage.py createsuperuser
 
 # Create new Serializers module
-touch mysite/polls/serializers.py
+touch polls/serializers.py
 
