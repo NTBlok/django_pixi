@@ -2,11 +2,14 @@
 pip install Django==1.9.2
 pip install djangorestframework
 
+# Create a directory for the django project
+mkdir mydjango
+cd mydjango
+
 # Set up a new project with a single application
-django-admin.py startproject mysite .
+django-admin startproject mysite 
 cd mysite
-django-admin.py startapp polls
-cd ..
+python manage.py startapp polls
 
 # Sync db for the first time to create initial tables
 python manage.py migrate
