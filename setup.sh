@@ -1,6 +1,8 @@
-# Install Django and Django REST framework
+# Install Django, Django REST framework, Django extensions and ipython notebook app (jupyter)
 pip install Django==1.9.2
 pip install djangorestframework
+pip install django_extensions
+pip install jupyter
 
 # Install IPython with iPython Notebook extensions
 pip install "ipython[notebook]"
