@@ -7,8 +7,9 @@ Create project directory
     mkdir mydjango
     cd mydjango
 
-Create a virtualenv and activate it and add the new path
+Install python-dev globally then create a virtualenv and activate it and add the new path
 
+    sudo apt-get install python-dev
     virtualenv env
     source env/bin/activate
     export VIRTUAL_ENV="$(pwd)"/env

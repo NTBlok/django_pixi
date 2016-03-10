@@ -2,6 +2,9 @@
 pip install Django==1.9.2
 pip install djangorestframework
 
+# Install IPython with iPython Notebook extensions
+pip install "ipython[notebook]"
+
 # Create a directory for the django project
 mkdir mydjango
 cd mydjango
